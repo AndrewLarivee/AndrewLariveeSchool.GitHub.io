@@ -1,0 +1,78 @@
+// use loops to make a cage where a loop draws my bitmoji 4 times
+
+
+var words = function(x,y)
+{
+    fill(255, 255, 255);
+    textSize(40);
+    text("ARL",x+44,y+169);
+};
+
+var body = function(x,y)
+{
+    fill(0, 34, 102);
+    rect(x+31,y+130,100,51);//body
+};
+
+
+var head = function(x,y)
+{
+    fill(232, 190, 172);//skin color
+    ellipse(x+80,y+90,76,86);//head in total
+
+};
+
+var hat = function(x,y)
+{
+    fill(0, 0, 0);//rest of hat
+    arc(x+80,y+73,66,-54,2,177);//top of hat
+    fill(66, 26, 26);//collor of back of hat
+    arc(x+82,y+71,29,-18,2,177);//hole in back of hat
+
+};
+
+
+var eyes = function(x,y)
+{
+    
+    fill(255, 255, 255);//white in eyes
+    ellipse(x+67,y+86,10,10);//left eye
+    ellipse(x+93,y+86,10,10);//right eye
+    fill(102, 59, 59);//brown eyes
+    ellipse(x+67,y+86,5,6);//left brown eyes
+    ellipse(x+93,y+86,5,6);//right brown eyes
+    fill(0, 0, 0);//pupil 
+    ellipse(x+67,y+86,3,3);//left eye pupil
+    ellipse(x+93,y+86,3,3);// right eye pupil
+
+};
+
+var glasses = function(x,y)
+{
+    fill(232, 190, 172);
+    rect(x+56,y+78,20,15);// left glasses
+    rect(x+82,y+78,20,15);//right glasses
+    line(x+76,y+86,x+82,y+86);//line connecting glasses
+};
+
+var mouth = function(x,y)
+{
+    fill(255, 255, 255);// smile
+    arc(x+81,y+108, 24, 20, -5,183);//mouth
+
+};
+
+var drawbitmoji = function (x,y)
+{
+    head(x, y);
+    hat(x, y);
+    glasses(x, y);
+    eyes(x, y);
+    mouth(x, y);
+    body(x, y);
+    words(x, y);
+};
+
+drawbitmoji(100,100);
+
+
