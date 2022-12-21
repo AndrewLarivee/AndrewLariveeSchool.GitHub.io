@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <center> <img src= "take7.jpg".jpg"> <br>
+          <a href = index.html> <img src = "newhome.jpg" height = "35"></a><br> </center>
+          <title>Andrew's Javascript Portfolio</title>
+        </head>
+        <body>
+            <h2><a href="https://www.khanacademy.org/computer-programming/deal-or-no-deal/5730112321929216">Deal or No Deal</a></h2><script src="https://www.khanacademy.org/computer-programming/deal-or-no-deal/5730112321929216/embed.js?editor=no&buttons=no&author=no&embed=yes"></script>
+            <p>Our game is a Deal or No Deal game, you start off on a splash screen that is<br>
+                animated when you are ready click the start game button with your mouse.<br>
+                You will then be brought to the main screen where you are to eliminate 6 <br>
+                boxes by clicking on each box you want to eliminate the number. As soon as the 6<br>
+                boxes are clicked a next screen will appear that offers the user a deal depending<br>
+                on the total amount of money left in the boxes you haven’t eliminated. You then<br>
+                have to make the choice to take the deal where you will be brought to a scree <br>
+                that shows you how much money you eliminated in the first round and the game will<br>
+                be over. Or click no deal and you will bring back to the main screen and eliminate<br>
+                5 more boxes. The game will repeat in this style eliminating 6,5,5,4,3,2,1 with a<br>
+                new deal between each round getting progressively higher in value. You can either<br>
+                take the deal or be given on box and you receive whatever is in that box no matter<br>
+                the value.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/vwyJDdqhHII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <style>
+
+            body {background-image: url('take6.jpg');}
+            h1 {color:white}
+            p {color: white}
+            body {background-color: black;}
+        
+        </style>
+      </body>
+  </html>
+  
